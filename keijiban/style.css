@@ -1,0 +1,153 @@
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+}
+
+/*header*/
+.log {
+    float: left;
+    padding: 0 0 20px 0;
+}
+
+.menu {
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+.menu li {
+    margin: auto 0;
+    padding: 10px 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+
+/*main*/
+.main {
+    clear: left;
+}
+
+
+
+
+
+/*main-left*/
+.left {
+    float: left;
+    width: 65%;
+    height: 100%;
+}
+
+h1 {
+    border-bottom: solid 1px;
+    border-left: solid 5px;
+    width: 100%;
+}
+
+h2.input_form {
+    border-left: solid 5px red;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+form {
+    margin: 0 auto;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+    width: 100%;
+}
+
+form div {
+    padding: 15px;
+}
+
+.text,
+textarea,
+    {
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+
+.submit {
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: #bfbfbf;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+}
+
+.button_area {
+    margin-top: -20px;
+}
+
+div.box_1 {
+    margin-top: 20px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+h2.box_a {
+    border-bottom: solid 1px lightgray;
+    width: 96%;
+    margin: 10px 15px;
+}
+
+.title_p {
+    width: 96%;
+    margin: 10px 15px;
+}
+
+
+
+
+
+
+/*main-right*/
+.right {
+    float: left;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+
+
+h2.side_title {
+    border-bottom: 2px dotted;
+    width: 97%;
+}
+
+.side-menu {
+    padding-left: 20px;
+}
+
+
+
+
+
+/*footer*/
+footer {
+    clear: both;
+    display: inline-block;
+    width: 110%;
+    text-align: center;
+    line-height: 10px;
+    background-color: black;
+    color: white;
+    margin: 40px -10px -8px -10px;
+
+}
